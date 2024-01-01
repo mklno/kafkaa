@@ -13,7 +13,7 @@
   <main class="layout-list">
     {% if config.extra.blog_categorized %}
     {% for category,posts in section.pages | group_by(attribute="taxonomies.categories.0") -%}
-    <!--<div class="category">{{ category }}</div>-->
+   <div class="category">{{ category }}</div>
     <div>
       {% for post in posts %}
       <a class="post" href="{{ post.permalink }}">
