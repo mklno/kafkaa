@@ -1,6 +1,6 @@
 +++
 title = "Yaanai Doctor - A Journey into the World of Elephant Healing"
-date = 2023-11-01
+date = 2023-10-25
 draft = false 
 
 [taxonomies]
