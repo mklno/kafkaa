@@ -55,9 +55,9 @@ sections = [
 blog_section_path = "/blog"
 
 nav_separator = "-"
-nav_wrapper_left = "{"
-nav_wrapper_right = "} ;"
-nav_wrapper_separator = ","
+nav_wrapper_left = ""
+nav_wrapper_right = ""
+nav_wrapper_separator = " "
 
 display_id = false # Whether to display your id on homepage
 blog_categorized = false # Whether to categorize blog posts
