@@ -10,7 +10,7 @@ mermaid = false
 copy = false
 comment = false
 +++
-Contains a bunch of books I happened read over the years.
+The following collection includes a multitude of books I've read over the years.
 ### 2024
 
 - _The Toilet Seat_ by Latha
