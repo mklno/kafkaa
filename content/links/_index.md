@@ -24,3 +24,4 @@ Following are the collection of sites, random things on the internet I found int
 -   [Fabien Sanglard](https://fabiensanglard.net/)
 -   [XahLee](http://www.xahlee.info/) - [Emacs](http://www.xahlee.info/emacs/emacs/emacs.html), [Keyboards](http://www.xahlee.info/kbd/keyboarding.html)
 -   [Bill Dietrich](https://www.billdietrich.me/u) - [Develop an Application](https://www.billdietrich.me/DevelopApplication.html)
+-	[Ian Y.E. Pan](https://ianyepan.github.io/) - [Emacs](https://ianyepan.github.io/posts/emacs-ide/)

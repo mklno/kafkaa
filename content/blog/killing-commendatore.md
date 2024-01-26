@@ -9,7 +9,7 @@ tags = ["murakami","books","reading"]
 
 [extra]
 lang = "en"
-toc = true
+toc = false
 comment = true
 copy = true
 math = false
