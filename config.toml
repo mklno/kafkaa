@@ -49,7 +49,7 @@ sections = [
     # { name = "projects", path = "/projects", is_external = false },
 	{ name = "links", path = "/links", is_external = false},
     { name = "letterboxd", path = "/movies", is_external = false},
-	{ name = "books", path = "/books", is_external = false},
+	# { name = "books", path = "/books", is_external = false},
     # { name = "about", path = "/about", is_external = false },
     # { name = "github", path = "https://github.com/<your-username>", is_external = true },
 ]
