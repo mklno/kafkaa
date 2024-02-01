@@ -1,0 +1,43 @@
+{% extends "_base.html" %}
+
+{% block page %}projects{% endblock page %}
+{% block lang %}
+  {% if section.extra.lang %}
+    {{ section.extra.lang }}
+  {% else %}
+    {{ section.lang }}
+  {% endif %}
+{% endblock lang %}
+{% block title %}{{ section.title }}{% endblock title %}
+{% block desc %}
+  <meta name="description" content="{{ section.description }}">
+{% endblock desc %}
+{% block content %}
+{% include "_header.html" %}
+<style>
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Adjust the gap between images as needed */
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+</style>
+
+<div id="wrapper">
+  <main>
+    {% set data = load_data(path="content/books/data.json", format="json") %}
+    <div class="image-container">
+      {% for book in data %}
+        	<img src="{{ book.cover }}" alt="Card Image">
+      {% endfor %}
+    </div>
+  </main>
+  {% include "_footer.html" %}
+</div>
+{% endblock content %}
+
