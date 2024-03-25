@@ -32,7 +32,7 @@ anchors = "on"
 [extra]
 
 name = "The Kafkaa"                         # Your name
-id = "The Kakfaa"                           # Your id / username / handle
+id = "The Kafkaa"                           # Your id / username / handle
 bio = "Archive of longings"                          # Your bio
 avatar = "img/avatar.webp"            # Your avatar
 links = [                             # Your links
